@@ -20,10 +20,14 @@ Welcome to the Project Links and Credentials repository! This repository is a ce
     - [Github Repository](https://github.com/MicroHeal-Wellness/winhealth-dashboard)
     <!-- - [Admin Panel](https://project-b-admin-panel.com) -->
 
-3. **Admin Pannel**
+3. **Admin Panel**
 
     - [Github Repository](https://github.com/MicroHeal-Wellness/winhealth-directus)
     - [Admin Panel](https://api.winhealth.agpro.co.in/admin/)
+
+3. **Admin Pannel Extensions (Custom Code)**
+
+    - [Github Repository](https://github.com/MicroHeal-Wellness/winhealth-directus-extension)
         
 ## How to Use This Repository
 
@@ -33,6 +37,6 @@ Welcome to the Project Links and Credentials repository! This repository is a ce
 
 2. **Credentials:**
 
-    - Ask admin for credentials to access the specified project or system. Be sure to keep these credentials secure and do not share them with unauthorized individuals.
+    - Ask the admin for credentials to access the specified project or system. Be sure to keep these credentials secure and do not share them with unauthorized individuals.
 
 Please make sure to provide clear and concise information, and do not include sensitive or confidential information in this repository.
