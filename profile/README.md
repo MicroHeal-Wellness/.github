@@ -13,7 +13,11 @@ Welcome to the Project Links and Credentials repository! This repository is a ce
 
 1. **Figma - APP**
 
-    - [Link]([https://github.com/MicroHeal-Wellness/winhealth-app](https://www.figma.com/file/dimRRTgXoJ1XNqVvdvZTPz/WinHealth-Final-App-UI?type=design&node-id=0%3A1&mode=design&t=OBhQzmLO2SGCCa1B-1))
+    - [Link](https://www.figma.com/file/dimRRTgXoJ1XNqVvdvZTPz/WinHealth-Final-App-UI?type=design&node-id=0%3A1&mode=design&t=OBhQzmLO2SGCCa1B-1)
+      
+2. **Figma - Landing Page**
+
+    - [Link](https://www.figma.com/file/V8ON7maklYuZremdLiv0mX/Winhealth-Website-(Copy)?type=design&node-id=234%3A3193&mode=design&t=OBhQzmLO2SGCCa1B-1)
     
 ## Project Links
 
@@ -44,6 +48,9 @@ Welcome to the Project Links and Credentials repository! This repository is a ce
 
 2. **Credentials:**
 
-    - Ask the admin for credentials to access the specified project or system. Be sure to keep these credentials secure and do not share them with unauthorized individuals.
+    - Ask the admin for credentials to access the specified project or system. Keep these credentials secure and do not share them with unauthorized individuals.
 
-Please make sure to provide clear and concise information, and do not include sensitive or confidential information in this repository.
+Please provide clear and concise information, and do not include sensitive or confidential information in this repository.
+App login: 1234567890 otp->123456
+Doctor Dashboard Login: admin@winhealth.care winhealth1234
+CMS Admin Login: admin@winhealth.care winhealth1234
