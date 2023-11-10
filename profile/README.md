@@ -29,7 +29,7 @@ Welcome to the Project Links and Credentials repository! This repository is a ce
 2. **Doctors Dashboard**
 
     - [Github Repository](https://github.com/MicroHeal-Wellness/winhealth-dashboard)
-    <!-- - [Admin Panel](https://project-b-admin-panel.com) -->
+    - [Admin Panel](https://winhealth-react.vercel.app/signin)
 
 3. **Admin Panel**
 
