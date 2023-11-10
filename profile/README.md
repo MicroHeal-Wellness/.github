@@ -7,7 +7,13 @@ Welcome to the Project Links and Credentials repository! This repository is a ce
 - [Project Links](#project-links)
 - [How to Use This Repository](#how-to-use-this-repository)
 - [Contributing](#contributing)
+- 
+## Other Links
 
+1. **Figma - APP**
+
+    - [Link]([https://github.com/MicroHeal-Wellness/winhealth-app](https://www.figma.com/file/dimRRTgXoJ1XNqVvdvZTPz/WinHealth-Final-App-UI?type=design&node-id=0%3A1&mode=design&t=OBhQzmLO2SGCCa1B-1))
+    
 ## Project Links
 
 1. **Consumer App - Winhealth App**
