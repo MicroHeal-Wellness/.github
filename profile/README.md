@@ -5,6 +5,7 @@ Welcome to the Project Links and Credentials repository! This repository is a ce
 ## Table of Contents
 
 - [Project Links](#project-links)
+- [Other Links](#other-links)
 - [How to Use This Repository](#how-to-use-this-repository)
 - [Contributing](#contributing)
 - 
