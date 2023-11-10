@@ -50,7 +50,7 @@ Welcome to the Project Links and Credentials repository! This repository is a ce
 
     - Ask the admin for credentials to access the specified project or system. Keep these credentials secure and do not share them with unauthorized individuals.
 
-Please provide clear and concise information, and do not include sensitive or confidential information in this repository.
-    - App login: 1234567890 otp->123456
-    - Doctor Dashboard Login: admin@winhealth.care winhealth1234
-    - CMS Admin Login: admin@winhealth.care winhealth1234
+Please provide clear and concise information, and do not include sensitive or confidential information in this repository.<br>
+    - App login: 1234567890 otp->123456<br>
+    - Doctor Dashboard Login: admin@winhealth.care winhealth1234<br>
+    - CMS Admin Login: admin@winhealth.care winhealth1234<br>
