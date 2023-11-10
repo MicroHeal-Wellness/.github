@@ -7,8 +7,7 @@ Welcome to the Project Links and Credentials repository! This repository is a ce
 - [Project Links](#project-links)
 - [Other Links](#other-links)
 - [How to Use This Repository](#how-to-use-this-repository)
-- [Contributing](#contributing)
-- 
+  
 ## Other Links
 
 1. **Figma - APP**
@@ -18,6 +17,10 @@ Welcome to the Project Links and Credentials repository! This repository is a ce
 2. **Figma - Landing Page**
 
     - [Link](https://www.figma.com/file/V8ON7maklYuZremdLiv0mX/Winhealth-Website-(Copy)?type=design&node-id=234%3A3193&mode=design&t=OBhQzmLO2SGCCa1B-1)
+      
+3. **Postman - Dashboard**
+
+    - [Link](https://www.postman.com/grey-eclipse-175099/workspace/winhealth/collection/12045867-fa8de59c-3a78-408c-b242-3b3f2b47389c?action=share&creator=12045867)
     
 ## Project Links
 
