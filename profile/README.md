@@ -1,59 +1,65 @@
-# Project Links and Credentials
+🟢 Service 1 — WhatsApp Gateway (Separate Service)
 
-Welcome to the Project Links and Credentials repository! This repository is a central hub for storing and managing important project links, credentials, and access details. Whether you're a team member, collaborator, or project manager, you'll find everything you need to access, track, and contribute to our projects right here.
+Responsibilities:
 
-## Table of Contents
+Receive WhatsApp webhooks
 
-- [Project Links](#project-links)
-- [Other Links](#other-links)
-- [How to Use This Repository](#how-to-use-this-repository)
-  
-## Other Links
+Verify Meta signature
 
-1. **Figma - APP**
+Normalize message format
 
-    - [Link](https://www.figma.com/file/dimRRTgXoJ1XNqVvdvZTPz/WinHealth-Final-App-UI?type=design&node-id=0%3A1&mode=design&t=OBhQzmLO2SGCCa1B-1)
-      
-2. **Figma - Landing Page**
+Handle retries / idempotency
 
-    - [Link](https://www.figma.com/file/V8ON7maklYuZremdLiv0mX/Winhealth-Website-(Copy)?type=design&node-id=234%3A3193&mode=design&t=OBhQzmLO2SGCCa1B-1)
-      
-3. **Postman - Dashboard**
+Send outgoing messages
 
-    - [Link](https://www.postman.com/grey-eclipse-175099/workspace/winhealth/collection/12045867-fa8de59c-3a78-408c-b242-3b3f2b47389c?action=share&creator=12045867)
-    
-## Project Links
+Rate limiting
 
-1. **Consumer App - Winhealth App**
+It should:
 
-    - [Github Repository](https://github.com/MicroHeal-Wellness/winhealth-app)
-    - [Latest Apk](https://drive.google.com/file/d/12S9jX80yh0Cv7dcs-zkt7G9dHmvxGyGR/view?usp=sharing)
-    
-2. **Doctors Dashboard**
+Call your Agent API
 
-    - [Github Repository](https://github.com/MicroHeal-Wellness/winhealth-dashboard)
-    - [Admin Panel](https://winhealth-dashboard.vercel.app/signin)
+Receive response
 
-3. **Admin Panel**
+Send to WhatsApp
 
-    - [Github Repository](https://github.com/MicroHeal-Wellness/winhealth-directus)
-    - [Admin Panel](https://api.winhealth.agpro.co.in/admin/)
+It should NOT:
 
-3. **Admin Pannel Extensions (Custom Code)**
+Run LangGraph
 
-    - [Github Repository](https://github.com/MicroHeal-Wellness/winhealth-directus-extension)
-        
-## How to Use This Repository
+Call Ollama directly
 
-1. **Accessing Project Links:**
+Know business logic
 
-    - Click on the links provided to access the project overviews, Github repositories, and live deployments. You can easily navigate to the project you are interested in.
+🔵 Service 2 — Agent Orchestrator (This Repo)
 
-2. **Credentials:**
+Responsibilities:
 
-    - Ask the admin for credentials to access the specified project or system. Keep these credentials secure and do not share them with unauthorized individuals.
+Receive normalized message
 
-Please provide clear and concise information, and do not include sensitive or confidential information in this repository.<br>
-    - App login: 1234567890 otp->123456<br>
-    - Doctor Dashboard Login: admin@winhealth.care winhealth1234<br>
-    - CMS Admin Login: admin@winhealth.care winhealth1234<br>
+Load session state
+
+Run LangGraph
+
+Call tools (Directus)
+
+Call Ollama
+
+Return structured response
+
+This is the “brain”.
+
+🟣 Service 3 — Directus Backend (Existing)
+
+Source of truth:
+
+Users
+
+Assessments
+
+Appointments
+
+Chat module
+
+Audit logs
+
+Roles
